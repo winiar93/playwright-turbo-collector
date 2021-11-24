@@ -1,5 +1,6 @@
 # playwright-turbo-collector
-Playwright script which downloads files from https://rpwdl.ezdrowie.gov.pl and saves them on s3 cloud.
+Playwright script which downloads registry files of persons performing medical activity 
+from https://rpwdl.ezdrowie.gov.pl and saves them on s3 cloud.
 
 Connection key must be dict type.
 Optionally you can comment out line 36 ``` download.save_as(path=f"./{file_name}.zip") ```
